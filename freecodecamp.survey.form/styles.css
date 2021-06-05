@@ -1,0 +1,40 @@
+body {
+    background-image: url("https://singaporegoldmart.com/template/back/img/bg-img/bg-img-2.jpg");
+    background-color: dimgrey;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+}
+
+main #survey-form {
+    background-color: #66159c7e;
+    padding-top: 5%;
+}
+
+input[type=text] {
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+}
+
+textarea {
+    width: 90%;
+    resize: none;
+    font-size: 20px;
+}
+
+input[type=radio] {
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+}
