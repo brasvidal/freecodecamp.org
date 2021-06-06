@@ -6,19 +6,18 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="reset.css" />
         <title>Survey Form</title>
         <h1 id="title">Survey Form from freecodecamp.org</h1>
     </head>
-
 
     <body>
         <p id="description">Answer my form</p>
         <form action="#" id="survey-form">
             <label for="name" id="name-label">Name:</label>
             <p></p>
-            <input type="text" id="name" placeholder="eg. John Smith" required/>
+            <input type="text" id="name" placeholder="eg. John Smith" required />
             <p></p>
             <label for="email" id="email-label">E-mail</label>
             <p></p>
@@ -26,43 +25,53 @@
             <p></p>
             <label for="number" id="number-label">Number:</label>
             <p></p>
-            <input type="text" id="number" pattern="[789][0-9]{9} type=" number " min="1 " max="12 " placeholder="eg:55555555 " required/>
-            <p></p>
-            <select name="list " id="dropdown ">
-                <option value="Alpha ">Alpha</option>
-                <option value="Beta ">Beta</option>
-                <option value="Charlie ">Charlie</option>
-                <option value="Delta ">Delta</option>
-                <option value="Echo ">Echo</option>
-            </select>
-            <fieldset id="radio-options " required>
-                <input type="radio " id="contactChoice1 " name="contact " value="email " />
-                <label for="contactChoice1 ">Email</label>
+            <input type="text" id="number" pattern="[789][0-9]{9} type=" number"
+        min="1" max="12" placeholder="eg:55555555" required/>
+        <p></p>
+        <select name="list" id="dropdown">
+          <option value="Alpha">Alpha</option>
+          <option value="Beta">Beta</option>
+          <option value="Charlie">Charlie</option>
+          <option value="Delta">Delta</option>
+          <option value="Echo">Echo</option>
+        </select>
+        <fieldset id="radio-options" required>
+          <input
+            type="radio"
+            id="contactChoice1"
+            name="contact"
+            value="email"
+          />
+          <label for="contactChoice1">Email</label>
 
-                <input type="radio " id="contactChoice2 " name="contact " value="phone " />
-                <label for="contactChoice2 ">Phone</label>
+          <input
+            type="radio"
+            id="contactChoice2"
+            name="contact"
+            value="phone"
+          />
+          <label for="contactChoice2">Phone</label>
 
-                <input type="radio " id="contactChoice3 " name="contact " value="mail " />
-                <label for="contactChoice3 ">Mail</label>
-            </fieldset>
+          <input type="radio" id="contactChoice3" name="contact" value="mail" />
+          <label for="contactChoice3">Mail</label>
+        </fieldset>
 
-            <fieldset>
-                <input type="checkbox " id="option1 " name="contact " value="email " />
-                <label for="option1 ">option1</label>
+        <fieldset>
+          <input type="checkbox" id="option1" name="contact" value="email" />
+          <label for="option1">option1</label>
 
-                <input type="checkbox " id="option2 " name="contact " value="phone " />
-                <label for="option2 ">option2</label>
+          <input type="checkbox" id="option2" name="contact" value="phone" />
+          <label for="option2">option2</label>
 
-                <input type="checkbox " id="option3 " name="contact " value="mail " />
-                <label for="option3 ">option3</label>
-            </fieldset>
+          <input type="checkbox" id="option3" name="contact" value="mail" />
+          <label for="option3">option3</label>
+        </fieldset>
 
-            <textarea name="freetext " id="freetext " cols="30 " rows="10 "></textarea>
-            <div id="submit ">
-                <button type="submit " id="submit ">Submit</button>
-            </div>
-        </form>
+        <textarea name="freetext" id="freetext" cols="30" rows="10"></textarea>
+        <div id="submit">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+      </form>
     </body>
-</main>
-
+  </main>
 </html>
